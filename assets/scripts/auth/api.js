@@ -10,9 +10,6 @@ const getJson = (success, failure) => {
   .fail(failure);
 };
 
-$(document).ready(getJson);
-
-
 module.exports = {
   getJson
 };
