@@ -1,0 +1,19 @@
+<div class="card">
+  {{#each}}
+    <h1>{{name}}</h1>
+    <h3>Email: {{email}}</h3>
+    <h3>Phone: {{phone}}</h3>
+    <h4>Website: {{website}}</h4>
+    <h5>Username: {{username}}</h5>
+    <h2>{{company.name}}</h2>
+    <p>   {{company.catchPhrase}}</p>
+    <p>   {{company.bs}}</p>
+    <p>{{address.street}}, {{address.suite}}</p>
+    <p>{{address.city}}, {{address.zipcode}}</p>
+    <details>
+      <summary>Geo Coordinates</summary>
+      <p>Latitude: {{address.geo.lat}}</p>
+      <p>Longitude: {{address.geo.lng}}</p>
+    </details>
+  {{/each}}
+</div>
