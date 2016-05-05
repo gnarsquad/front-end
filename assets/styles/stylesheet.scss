@@ -7,4 +7,9 @@
 .jumbotron {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
+
+  .pull-right {
+    float: right;
+  }
 }
